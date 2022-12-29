@@ -1,0 +1,5 @@
+﻿  StandartLib.cpp
+D:\2k1s\KPO\CurseProject\ASMCourse\StandartLib\StandartLib.cpp(8,9): warning C4068: неизвестная прагма "argsused"
+D:\2k1s\KPO\CurseProject\ASMCourse\StandartLib\StandartLib.cpp(29): warning C4172: возвращение адреса локальной или временной переменной : timelocal
+D:\2k1s\KPO\CurseProject\ASMCourse\StandartLib\StandartLib.cpp(39): warning C4172: возвращение адреса локальной или временной переменной : datalocal
+  StandartLib.vcxproj -> D:\2k1s\KPO\CurseProject\ASMCourse\Debug\StandartLib.lib

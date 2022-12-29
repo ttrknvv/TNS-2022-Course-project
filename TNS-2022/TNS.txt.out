@@ -1,0 +1,74 @@
+function unsint32 FindMin(unsint32 x, unsint32 y)
+{
+ unsint32 result = x;
+ when[x < y]
+ {
+  result = x;
+ }
+ otherwise
+ {
+  result = y;
+ }
+ return result;
+}
+procedure PrintNumbs(unsint32 n)
+{
+ unsint32 i = 1;
+ iteration[i < n]
+ {
+  write i;
+  write " ";
+  i = i + 1;
+ }
+ return;
+}
+MAIN
+{
+ write "Вызов функции нахождения наименьшего: ";
+ unsint32 result;
+ result = FindMin(99, 1000);
+ writeln result;
+ write "Вызов процедуры вывода последовательности чисел: ";
+ PrintNumbs(5);
+ writeln " ";
+ unsint32 expr = 500 - 600;
+ write "Результат выражения 500 - 600: ";
+ writeln expr;
+ symbol test1 = 'Н';
+ line test2 = "Курсовой проект TNS-2022";
+ unsint32 test3 = 12345;
+ logical test4 = true;
+ write "Вывод основных типов данных: ";
+ write test1;
+ write " ";
+ write test2;
+ write " ";
+ write test3;
+ write " ";
+ writeln test4;
+ unsint32 test5 = 1;
+ write "Сдвиг числа "; write test5; write " на 3 разряда влево: ";
+ test5 = test5 :<< 3;
+ writeln test5;
+ write "Сдвиг числа "; write test5; write " на 3 разряда вправо: ";
+ test5 = test5 :>> 3;
+ writeln test5;
+ unsint32 test6;
+ test6 = test5 + test3 / 5 - FindMin(3, 7) * 5 :<< 1;
+ write "Значение выражения: ";
+ writeln test6;
+ test4 = false;
+ when[test4]
+ {
+  writeln "Значение logical true";
+ }
+ otherwise
+ {
+  writeln "Значение logical false";
+ }
+ line timeNow = gettime();
+ wrriteln timeNow;
+ timeNow = getdata();
+ writeln timeNow;
+ writeln "Тестирование закончилось!";
+};

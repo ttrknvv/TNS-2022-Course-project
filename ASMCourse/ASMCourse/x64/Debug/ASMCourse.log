@@ -1,0 +1,90 @@
+﻿  Assembling code.asm...
+code.asm(1): error A2008: syntax error : .
+code.asm(2): error A2008: syntax error : .
+code.asm(8): error A2008: syntax error : .
+code.asm(54): error A2070: invalid instruction operands
+code.asm(55): error A2070: invalid instruction operands
+code.asm(57): error A2070: invalid instruction operands
+code.asm(58): error A2070: invalid instruction operands
+code.asm(59): error A2070: invalid instruction operands
+code.asm(60): error A2070: invalid instruction operands
+code.asm(65): error A2070: invalid instruction operands
+code.asm(67): error A2070: invalid instruction operands
+code.asm(74): error A2070: invalid instruction operands
+code.asm(76): error A2070: invalid instruction operands
+code.asm(79): error A2070: invalid instruction operands
+code.asm(80): error A2070: invalid instruction operands
+code.asm(81): error A2070: invalid instruction operands
+code.asm(82): error A2070: invalid instruction operands
+code.asm(84): error A2070: invalid instruction operands
+code.asm(86): error A2070: invalid instruction operands
+code.asm(93): error A2070: invalid instruction operands
+code.asm(94): error A2070: invalid instruction operands
+code.asm(103): error A2070: invalid instruction operands
+code.asm(104): error A2070: invalid instruction operands
+code.asm(106): error A2070: invalid instruction operands
+code.asm(108): error A2070: invalid instruction operands
+code.asm(109): error A2070: invalid instruction operands
+code.asm(111): error A2070: invalid instruction operands
+code.asm(112): error A2070: invalid instruction operands
+code.asm(113): error A2070: invalid instruction operands
+code.asm(114): error A2070: invalid instruction operands
+code.asm(115): error A2070: invalid instruction operands
+code.asm(116): error A2070: invalid instruction operands
+code.asm(118): error A2070: invalid instruction operands
+code.asm(119): error A2070: invalid instruction operands
+code.asm(120): error A2070: invalid instruction operands
+code.asm(122): error A2070: invalid instruction operands
+code.asm(124): error A2070: invalid instruction operands
+code.asm(127): error A2070: invalid instruction operands
+code.asm(129): error A2070: invalid instruction operands
+code.asm(132): error A2070: invalid instruction operands
+code.asm(134): error A2070: invalid instruction operands
+code.asm(137): error A2070: invalid instruction operands
+code.asm(138): error A2070: invalid instruction operands
+code.asm(139): error A2070: invalid instruction operands
+code.asm(140): error A2070: invalid instruction operands
+code.asm(142): error A2070: invalid instruction operands
+code.asm(143): error A2070: invalid instruction operands
+code.asm(144): error A2070: invalid instruction operands
+code.asm(145): error A2070: invalid instruction operands
+code.asm(146): error A2070: invalid instruction operands
+code.asm(148): error A2070: invalid instruction operands
+code.asm(149): error A2070: invalid instruction operands
+code.asm(150): error A2070: invalid instruction operands
+code.asm(152): error A2070: invalid instruction operands
+code.asm(153): error A2070: invalid instruction operands
+code.asm(154): error A2070: invalid instruction operands
+code.asm(155): error A2070: invalid instruction operands
+code.asm(156): error A2070: invalid instruction operands
+code.asm(158): error A2070: invalid instruction operands
+code.asm(159): error A2070: invalid instruction operands
+code.asm(160): error A2070: invalid instruction operands
+code.asm(161): error A2070: invalid instruction operands
+code.asm(163): error A2070: invalid instruction operands
+code.asm(164): error A2070: invalid instruction operands
+code.asm(165): error A2070: invalid instruction operands
+code.asm(167): error A2070: invalid instruction operands
+code.asm(169): error A2070: invalid instruction operands
+code.asm(173): error A2070: invalid instruction operands
+code.asm(174): error A2070: invalid instruction operands
+code.asm(183): error A2070: invalid instruction operands
+code.asm(184): error A2070: invalid instruction operands
+code.asm(188): error A2070: invalid instruction operands
+code.asm(189): error A2070: invalid instruction operands
+code.asm(195): error A2070: invalid instruction operands
+code.asm(197): error A2070: invalid instruction operands
+code.asm(206): error A2070: invalid instruction operands
+code.asm(208): error A2070: invalid instruction operands
+code.asm(212): error A2070: invalid instruction operands
+code.asm(214): error A2070: invalid instruction operands
+code.asm(218): error A2070: invalid instruction operands
+code.asm(219): error A2070: invalid instruction operands
+code.asm(220): error A2070: invalid instruction operands
+code.asm(231): error A2070: invalid instruction operands
+code.asm(233): error A2070: invalid instruction operands
+code.asm(239): error A2008: syntax error : main
+code.asm(239): error A2088: END directive required at end of file
+code.asm(177): warning A6004: procedure argument or local not referenced : alineGet
+code.asm(177): warning A6004: procedure argument or local not referenced : plineGet
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\code.obj" /W3 /errorReport:prompt  /Tacode.asm" с кодом "1".

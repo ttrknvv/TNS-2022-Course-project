@@ -1,0 +1,6 @@
+﻿  LexAnalysis.cpp
+D:\2k1s\KPO\CurseProject\TNS-2022\TNS-2022\TNS-2022\IT.h(11,1): warning C4005: TI_LINE_DEFAULT: изменение макроопределения
+D:\2k1s\KPO\CurseProject\TNS-2022\TNS-2022\TNS-2022\IT.h(10): message : см. предыдущее определение "TI_LINE_DEFAULT"
+D:\2k1s\KPO\CurseProject\TNS-2022\TNS-2022\TNS-2022\LexAnalysis.cpp(1251,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\2k1s\KPO\CurseProject\TNS-2022\TNS-2022\TNS-2022\LexAnalysis.cpp(1301,41): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+  TNS-2022.vcxproj -> D:\2k1s\KPO\CurseProject\TNS-2022\TNS-2022\Debug\TNS-2022.exe
